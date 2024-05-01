@@ -7,9 +7,9 @@ Goal of this project was to prepare ready to use Data Warehouse system, includin
 ### Short guide to first-time warehouse setup
 STEP 1:
 
-Run the dbo_creation.sql script to create a data warehouse
+1. Run the dbo_creation.sql script to create a data warehouse
 
-Run date_feed.sql script to feed Date Dimension in created Data Warehouse
+2. Run date_feed.sql script to feed Date Dimension in created Data Warehouse
 
 STEP 2:
 
