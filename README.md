@@ -7,13 +7,14 @@ Goal of this project was to prepare ready to use Data Warehouse system, includin
 ### Short guide to first-time warehouse setup
 STEP 1:
 Run the dbo_creation.sql script to create a data warehouse
+
 Run date_feed.sql script to feed Date Dimension in created Data Warehouse
 
 STEP 2:
 Open eu_funds_generation.ipynb notebook and execute every cell. This is necesarry to add artificial generated additional FactTable of EU donations to match project requirements. 
 
 STEP 3:
-Run the LoadDimensions.dtsx package in SSIS to load, process and store data inside the data warehouse.
+Run the dwh_project_etl/LoadDimensions.dtsx package in SSIS to load, process and store data inside the data warehouse.
 
 After these steps the warehouse should be ready to use for reports etc.
 
